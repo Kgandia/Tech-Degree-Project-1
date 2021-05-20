@@ -73,7 +73,7 @@
     transition: all .5s;
   }
   header .profile-image:hover {
-    transform: scale(1.2) rotate(5deg);
+    transform: scale(1.2) rotate(180deg);
   }
   .tag {
     background-color: rgb(0, 0, 0);
@@ -84,7 +84,7 @@
     margin: 10px auto;
   } 
   .location {
-    background-color: #1842b8;
+    background-color: rgb(0, 0, 0);
     color: white;
   }
   .card {
@@ -158,6 +158,9 @@
   }
   a.github {
     background-image: url(images/github.png);
+  }
+  a.email {
+    background-image: url(images/email.png); 
   }
   a.social:hover {
     opacity: 1;
